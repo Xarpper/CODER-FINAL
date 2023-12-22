@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 70px;
+        a{
+            text-decoration: none;
+            h1{ 
+                font-size: 35px;
+                font-family: "Bebas neue", sans-serif;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        button{
+            display: none;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            li{
+                a{
+                    font-size: 20px;
+                    margin-left: 10px;
+                    text-decoration: none;
+                    color: white;      
+                    &:hover{
+                        color: purple;
+                        transition: 0.5s;
+                    }              
+                }
+            }
+        }
+    }
+}
+}

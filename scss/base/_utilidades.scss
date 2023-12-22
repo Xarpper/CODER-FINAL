@@ -1,0 +1,47 @@
+/*BOTON WHATSAPP*/
+
+.wpp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    background-color: rgb(37, 211, 102);
+    height: 50px;
+    width: 50px;
+    border-radius:30%;
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    a{
+        margin-top: 5px;
+        color: white;
+    }
+}
+/*!BOTON VERDE*/
+.servicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(37, 211, 102);
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10PX;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/*!Boton Negro*/
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}

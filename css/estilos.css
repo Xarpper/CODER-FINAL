@@ -1,0 +1,651 @@
+.subtitulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  width: 100%;
+  height: 18%;
+  background-color: black;
+  color: white;
+}
+.subtitulo div {
+  margin-inline-start: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulo-nombre {
+  font-size: 2rem;
+}
+
+.subtitulo-direccion {
+  font-size: 0.7rem;
+}
+
+.subtitulo-close {
+  margin-right: 3%;
+  border: rgb(236, 236, 236) solid 2px;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.perfil {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: start;
+  padding-top: 2%;
+}
+
+.perfil-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.perfil-left div {
+  width: 60%;
+  height: 100%;
+}
+.perfil-left div a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(201, 201, 201);
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  color: rgb(85, 81, 81);
+}
+.perfil-left div a:hover {
+  border: rgb(0, 0, 0) solid 2px;
+}
+
+.perfil-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.perfil-top {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.perfil-mid {
+  width: 100%;
+}
+
+.perfil-bot {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.perfil-bot a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.perfil-bot a:hover {
+  border: rgb(0, 0, 0) solid 2px;
+}
+
+.pedidos-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: rgb(236, 236, 236) solid 2px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 2%;
+}
+.pedidos-card h4 {
+  margin-left: 3%;
+}
+.pedidos-card img {
+  height: 15%;
+  width: 15%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 2px;
+}
+.pedidos-card a {
+  text-decoration: none;
+  color: black;
+}
+.pedidos-card:hover {
+  border: rgb(0, 0, 0) solid 2px;
+}
+
+.productos {
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos-side {
+  height: 50%;
+  grid-area: side;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(201, 201, 201);
+}
+.productos-side h3 {
+  background-color: rgb(201, 201, 201);
+  color: rgb(85, 81, 81);
+  text-decoration: none;
+}
+.productos-side a {
+  background-color: rgb(201, 201, 201);
+  color: rgb(85, 81, 81);
+  text-decoration: none;
+}
+
+.producto-content {
+  width: 70%;
+  display: grid;
+  grid-template-areas: "side prod1 prod2 prod3 prod4" "side prod5 prod6 prod7 prod8";
+  gap: 4%;
+}
+
+.producto-card {
+  width: 200px;
+  height: 200px;
+  border: rgb(236, 236, 236) solid 2px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 30%;
+}
+.producto-card img {
+  width: 100%;
+  padding: 2%;
+  border-start-end-radius: 15px;
+  border-start-start-radius: 15px;
+}
+
+.p1 {
+  grid-area: prod1;
+}
+
+.p2 {
+  grid-area: prod2;
+}
+
+.p3 {
+  grid-area: prod3;
+}
+
+.p4 {
+  grid-area: prod4;
+}
+
+.p5 {
+  grid-area: prod5;
+}
+
+.p6 {
+  grid-area: prod6;
+}
+
+.p7 {
+  grid-area: prod7;
+}
+
+.p8 {
+  grid-area: prod8;
+}
+
+.impresion {
+  background-image: url("../images/fondo.jpg");
+  padding-top: 9%;
+  width: 100%;
+  height: 50%;
+  padding-bottom: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.impresion h2 {
+  color: rgb(230, 234, 232);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+}
+.impresion p {
+  color: rgb(231, 242, 236);
+  width: 1000px;
+  font-size: 20px;
+}
+
+.pasos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.pasos div {
+  height: 300px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 1%;
+  background-color: black;
+  border: rgb(236, 236, 236) solid 2px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 10px;
+}
+.pasos div i {
+  font-size: 50px;
+}
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-consultas {
+  margin: 2% 2% 2%;
+  width: 30%;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-consultas h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+}
+.form-consultas p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-consultas a {
+  color: white;
+  text-decoration: none;
+}
+.form-consultas a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.formulario {
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: black;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  height: 70px;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 70px;
+}
+body header nav a {
+  text-decoration: none;
+}
+body header nav a h1 {
+  font-size: 35px;
+  font-family: "Bebas neue", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+body header nav button {
+  display: none;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+body header nav ul li a {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+body header nav ul li a:hover {
+  color: purple;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 39px;
+  }
+  body header {
+    height: 40px;
+  }
+  .logo h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+  }
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    padding: 20px 0;
+    left: 100%;
+    transition: left 0, 3s;
+  }
+  .nav-menu-item {
+    font-size: 18px;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-menu_visible {
+    left: 0;
+  }
+}
+.producto div {
+  margin: 2% 0% 2% 0%;
+  width: 20%;
+  height: 25%;
+  border: rgb(101, 98, 98) solid 2px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.producto div:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.producto img {
+  width: 100%;
+  padding: 2%;
+  border-start-end-radius: 15px;
+  border-start-start-radius: 15px;
+}
+
+.form-consultas-index {
+  height: 450px;
+  margin: 2% 2%;
+  width: 30%;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-consultas-index h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+}
+
+.formulario-index {
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: black;
+}
+
+.impresion-index {
+  border-radius: 10px;
+  background-image: url("../images/fondo.jpg");
+  height: 450px;
+  width: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.impresion-index h2 {
+  color: rgb(230, 234, 232);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+}
+.impresion-index p {
+  color: rgb(231, 242, 236);
+  width: 800px;
+  font-size: 20px;
+}
+
+.foot {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot div {
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
+}
+.foot h4 {
+  color: white;
+  margin-left: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/*BOTON WHATSAPP*/
+.wpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  background-color: rgb(37, 211, 102);
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+}
+.wpp a {
+  margin-top: 5px;
+  color: white;
+}
+
+/*!BOTON VERDE*/
+.servicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(37, 211, 102);
+  color: white;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10PX;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/*!Boton Negro*/
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 70px;
+  /**/
+}
+
+.hero {
+  background-image: url("../images/fondo.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h2 {
+  color: rgb(222, 229, 225);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+}
+.hero p {
+  color: rgb(237, 240, 239);
+  width: 75%;
+}
+.hero p {
+  display: none;
+}
+
+.divisor {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+}
+.divisor h3 {
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.divisor h3:hover {
+  color: purple;
+  transition: 0.5s;
+}
+
+.producto-index {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nosotros-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 70px;
+  text-transform: uppercase;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 15px;
+  padding: 0 20px;
+  line-height: 20px;
+  display: none;
+}/*# sourceMappingURL=estilos.css.map */

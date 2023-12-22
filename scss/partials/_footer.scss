@@ -1,0 +1,16 @@
+.foot{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        font-size: 30px;
+        color: white;
+        margin-right: 20px;
+    }
+    h4{
+        color: white;
+        margin-left: 20px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}

@@ -1,0 +1,25 @@
+.impresion-index{
+    border-radius: 10px;
+    background-image: url("../images/fondo.jpg");
+    height: 450px;
+    width: 60%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: rgb(230, 234, 232);
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 40px;
+    
+    }
+    p{
+        color: rgb(231, 242, 236);
+        width: 800px;
+        font-size: 20px;
+    }
+}

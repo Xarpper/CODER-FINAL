@@ -1,0 +1,28 @@
+.producto{
+    div{
+        margin: 2% 0% 2% 0%;
+        width: 20%;
+        height: 25%;
+        border: rgb(101, 98, 98) solid 2px;
+        background-color: rgb(249, 249, 249);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+    
+    }
+    img{
+        width: 100%;
+        padding: 2%;
+        border-start-end-radius: 15px;
+        border-start-start-radius: 15px;
+    }
+
+    
+}
