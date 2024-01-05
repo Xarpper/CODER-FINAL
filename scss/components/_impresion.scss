@@ -11,15 +11,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2%;
+    @include tablet{
+        width: 90%;
+    }
+    @include mobile{
+        width: 90%;
+    }
     h2{
         color: rgb(230, 234, 232);
         font-family: 'Bebas Neue', sans-serif;
         font-size: 40px;
+        @include tablet{
+            width: 80%;
+            text-align: center;
+        }
+        @include mobile{
+            width: 90%;
+            text-align: center;
+        }
     
     }
     p{
         color: rgb(231, 242, 236);
-        width: 800px;
+        width: 90%;
         font-size: 20px;
     }
 }

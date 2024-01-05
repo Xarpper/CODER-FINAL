@@ -3,6 +3,12 @@
     background-color: black;
     justify-content: space-between;
     align-items: center;
+    @include tablet{
+        
+    }
+    @include mobile{
+
+    }
     div{
         font-size: 30px;
         color: white;
@@ -13,4 +19,5 @@
         margin-left: 20px;
         font-family: 'Bebas Neue', sans-serif;
     }
+
 }

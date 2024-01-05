@@ -13,6 +13,12 @@
     position: fixed;
     bottom: 50px;
     right: 5px;
+    @include tablet{
+        display: none;
+    }
+    @include mobile{
+        display: none;
+    }
     a{
         margin-top: 5px;
         color: white;
@@ -43,5 +49,26 @@
     height: 40px;
     text-decoration: none;
     border-radius: 15px;
+    margin: 10px;
+    @include tablet{
+        width: 70px;
+        height: 25px;
+        border-radius: 8px;
+        
+    }
+    @include mobile{
+        width: 70px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    span{
+        @include tablet{
+        font-size: 12px;
+        }
+        @include mobile{
+           font-size: 12px; 
+        }
+    }
     
 }
+
