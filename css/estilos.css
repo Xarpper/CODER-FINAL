@@ -1,3 +1,367 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width: 992px) {
+  body {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    padding-top: 40px;
+  }
+}
+body header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  height: 70px;
+}
+@media screen and (max-width: 992px) {
+  body header {
+    height: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header {
+    height: 40px;
+  }
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 70px;
+}
+@media screen and (max-width: 992px) {
+  body header nav {
+    height: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header nav {
+    height: 40px;
+  }
+}
+body header nav a {
+  text-decoration: none;
+}
+body header nav a h1 {
+  font-size: 35px;
+  font-family: "Bebas neue", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 992px) {
+  body header nav a h1 {
+    font-size: 20px;
+  }
+}
+body header nav button {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  body header nav button {
+    font-size: 18px;
+    display: block;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header nav button {
+    font-size: 18px;
+    display: block;
+  }
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+@media screen and (max-width: 992px) {
+  body header nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    padding: 20px 0;
+    left: 100%;
+    transition: left 0, 3s;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    padding: 20px 0;
+    left: 100%;
+    transition: left 0, 3s;
+  }
+}
+@media screen and (max-width: 992px) {
+  body header nav ul li {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header nav ul li {
+    font-size: 18px;
+  }
+}
+body header nav ul li a {
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 992px) {
+  body header nav ul li a {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  body header nav ul li a {
+    margin: 20px;
+  }
+}
+body header nav ul li a:hover {
+  color: purple;
+  transition: 0.5s;
+}
+body .nav-menu_visible {
+  left: 0;
+}
+
+.producto div {
+  margin: 2% 0% 2% 0%;
+  width: 20%;
+  height: 25%;
+  border: rgb(101, 98, 98) solid 2px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+@media screen and (max-width: 576px) {
+  .producto div {
+    width: 80%;
+    margin-top: 10%;
+  }
+}
+.producto div:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.producto img {
+  width: 100%;
+  padding: 2%;
+  border-start-end-radius: 15px;
+  border-start-start-radius: 15px;
+}
+
+.form-consultas-index {
+  height: 450px;
+  margin: 2% 2%;
+  width: 30%;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+@media screen and (max-width: 992px) {
+  .form-consultas-index {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form-consultas-index {
+    width: 90%;
+  }
+}
+.form-consultas-index h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+}
+
+.formulario-index {
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: black;
+}
+
+.impresion-index {
+  border-radius: 10px;
+  background-image: url("../images/fondo.jpg");
+  height: 450px;
+  width: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+@media screen and (max-width: 992px) {
+  .impresion-index {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .impresion-index {
+    width: 90%;
+  }
+}
+.impresion-index h2 {
+  color: rgb(230, 234, 232);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+}
+@media screen and (max-width: 992px) {
+  .impresion-index h2 {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .impresion-index h2 {
+    width: 90%;
+    text-align: center;
+  }
+}
+.impresion-index p {
+  color: rgb(231, 242, 236);
+  width: 90%;
+  font-size: 20px;
+}
+
+.foot {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot div {
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
+}
+.foot h4 {
+  color: white;
+  margin-left: 20px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/*BOTON WHATSAPP*/
+.wpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 40px;
+  background-color: rgb(37, 211, 102);
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+}
+@media screen and (max-width: 992px) {
+  .wpp {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .wpp {
+    display: none;
+  }
+}
+.wpp a {
+  margin-top: 5px;
+  color: white;
+}
+
+/*!BOTON VERDE*/
+.servicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(37, 211, 102);
+  color: white;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10PX;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/*!Boton Negro*/
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 15px;
+  margin: 10px;
+}
+@media screen and (max-width: 992px) {
+  .boton {
+    width: 70px;
+    height: 25px;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .boton {
+    width: 70px;
+    height: 25px;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .boton span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .boton span {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   main {
     display: flex;
@@ -463,370 +827,6 @@
   font-family: "calibri";
   font-size: 18px;
   color: black;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-@media screen and (max-width: 992px) {
-  body {
-    padding-top: 40px;
-  }
-}
-@media screen and (max-width: 576px) {
-  body {
-    padding-top: 40px;
-  }
-}
-body header {
-  position: fixed;
-  width: 100%;
-  background-color: black;
-  height: 70px;
-}
-@media screen and (max-width: 992px) {
-  body header {
-    height: 40px;
-  }
-}
-@media screen and (max-width: 576px) {
-  body header {
-    height: 40px;
-  }
-}
-body header nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  height: 70px;
-}
-@media screen and (max-width: 992px) {
-  body header nav {
-    height: 40px;
-  }
-}
-@media screen and (max-width: 576px) {
-  body header nav {
-    height: 40px;
-  }
-}
-body header nav a {
-  text-decoration: none;
-}
-body header nav a h1 {
-  font-size: 35px;
-  font-family: "Bebas neue", sans-serif;
-  text-decoration: none;
-  color: white;
-}
-@media screen and (max-width: 992px) {
-  body header nav a h1 {
-    font-size: 20px;
-  }
-}
-body header nav button {
-  display: none;
-}
-@media screen and (max-width: 992px) {
-  body header nav button {
-    font-size: 18px;
-    display: block;
-  }
-}
-@media screen and (max-width: 576px) {
-  body header nav button {
-    font-size: 18px;
-    display: block;
-  }
-}
-body header nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-@media screen and (max-width: 992px) {
-  body header nav ul {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    background-color: black;
-    position: fixed;
-    left: 0;
-    top: 40px;
-    width: 100%;
-    padding: 20px 0;
-    left: 100%;
-    transition: left 0, 3s;
-  }
-}
-@media screen and (max-width: 576px) {
-  body header nav ul {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    background-color: black;
-    position: fixed;
-    left: 0;
-    top: 40px;
-    width: 100%;
-    padding: 20px 0;
-    left: 100%;
-    transition: left 0, 3s;
-  }
-}
-@media screen and (max-width: 992px) {
-  body header nav ul li {
-    font-size: 18px;
-  }
-}
-@media screen and (max-width: 576px) {
-  body header nav ul li {
-    font-size: 18px;
-  }
-}
-body header nav ul li a {
-  font-size: 20px;
-  margin-left: 10px;
-  text-decoration: none;
-  color: white;
-}
-@media screen and (max-width: 992px) {
-  body header nav ul li a {
-    margin: 20px;
-  }
-}
-@media screen and (max-width: 576px) {
-  body header nav ul li a {
-    margin: 20px;
-  }
-}
-body header nav ul li a:hover {
-  color: purple;
-  transition: 0.5s;
-}
-body .nav-menu_visible {
-  left: 0;
-}
-
-.producto div {
-  margin: 2% 0% 2% 0%;
-  width: 20%;
-  height: 25%;
-  border: rgb(101, 98, 98) solid 2px;
-  background-color: rgb(249, 249, 249);
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-@media screen and (max-width: 576px) {
-  .producto div {
-    width: 80%;
-    margin-top: 10%;
-  }
-}
-.producto div:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-.producto img {
-  width: 100%;
-  padding: 2%;
-  border-start-end-radius: 15px;
-  border-start-start-radius: 15px;
-}
-
-.form-consultas-index {
-  height: 450px;
-  margin: 2% 2%;
-  width: 30%;
-  background: white;
-  padding: 30px;
-  border-radius: 4px;
-  font-family: "calibri";
-  color: white;
-  box-shadow: 7px 13px 37px #000;
-}
-@media screen and (max-width: 992px) {
-  .form-consultas-index {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .form-consultas-index {
-    width: 90%;
-  }
-}
-.form-consultas-index h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
-  font-family: "Bebas Neue", sans-serif;
-  color: black;
-}
-
-.formulario-index {
-  width: 100%;
-  background: white;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid #1f53c5;
-  font-family: "calibri";
-  font-size: 18px;
-  color: black;
-}
-
-.impresion-index {
-  border-radius: 10px;
-  background-image: url("../images/fondo.jpg");
-  height: 450px;
-  width: 60%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
-}
-@media screen and (max-width: 992px) {
-  .impresion-index {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .impresion-index {
-    width: 90%;
-  }
-}
-.impresion-index h2 {
-  color: rgb(230, 234, 232);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-}
-@media screen and (max-width: 992px) {
-  .impresion-index h2 {
-    width: 80%;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 576px) {
-  .impresion-index h2 {
-    width: 90%;
-    text-align: center;
-  }
-}
-.impresion-index p {
-  color: rgb(231, 242, 236);
-  width: 90%;
-  font-size: 20px;
-}
-
-.foot {
-  display: flex;
-  background-color: black;
-  justify-content: space-between;
-  align-items: center;
-}
-.foot div {
-  font-size: 30px;
-  color: white;
-  margin-right: 20px;
-}
-.foot h4 {
-  color: white;
-  margin-left: 20px;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-/*BOTON WHATSAPP*/
-.wpp {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 40px;
-  background-color: rgb(37, 211, 102);
-  height: 50px;
-  width: 50px;
-  border-radius: 30%;
-  position: fixed;
-  bottom: 50px;
-  right: 5px;
-}
-@media screen and (max-width: 992px) {
-  .wpp {
-    display: none;
-  }
-}
-@media screen and (max-width: 576px) {
-  .wpp {
-    display: none;
-  }
-}
-.wpp a {
-  margin-top: 5px;
-  color: white;
-}
-
-/*!BOTON VERDE*/
-.servicio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  background-color: rgb(37, 211, 102);
-  color: white;
-  font-size: 30px;
-  width: 150px;
-  height: 50px;
-  border-radius: 10PX;
-  font-family: "Bebas Neue", sans-serif;
-}
-
-/*!Boton Negro*/
-.boton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: white;
-  width: 100px;
-  height: 40px;
-  text-decoration: none;
-  border-radius: 15px;
-  margin: 10px;
-}
-@media screen and (max-width: 992px) {
-  .boton {
-    width: 70px;
-    height: 25px;
-    border-radius: 8px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .boton {
-    width: 70px;
-    height: 25px;
-    border-radius: 8px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .boton span {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .boton span {
-    font-size: 12px;
-  }
 }
 
 * {

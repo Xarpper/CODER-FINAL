@@ -1,14 +1,17 @@
 @import "./base/mediaquery";
-@import "./partials/perfil";
-@import "./partials/productos";
-@import "./partials/servicios";
-@import "./partials/carrito";
 @import "./partials/header";
 @import "./components/prod-card";
 @import "./components/formulario";
 @import "./components/impresion";
 @import "./partials/footer";
 @import "./base/utilidades";
+@import "./partials/perfil";
+@import "./partials/productos";
+@import "./partials/servicios";
+@import "./partials/carrito";
+@import "./partials/password";
+
+
 
 *{
     margin: 0;
